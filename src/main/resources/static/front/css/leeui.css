@@ -1,0 +1,19 @@
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+    outline: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+figure {
+    margin: 0;
+}
+[type='button'] {
+    border: none;
+    outline: none;
+}

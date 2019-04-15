@@ -1,0 +1,56 @@
+#wrapper h1 {
+    word-wrap: break-word;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #494949;
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+.grid-16-8 .article {
+    float: left;
+    width: 80%;
+    padding-right: 40px;
+}
+.grid-16-8 .wrap {
+    background-color: #f2fbf2;
+    display: block;
+}
+.grid-16-8 .wrap h3 {
+    margin-top: 20px;
+	margin-left: 4px;
+    font: 14px Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin-bottom: 1px;
+    line-height: 1.8;
+    background-color: #f2fbf2;
+}
+.grid-16-8 .aside {
+    float: right;
+    width: 20%;
+}
+.extra {
+    clear: both;
+    text-align: right;
+}
+.aside .pl2 {
+    font: 14px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+}
+.aside a{
+	text-decoration: none;
+    line-height: 40px;
+}
+.aside a:link {
+    color: #37a; 
+}
+.aside a:visited {
+    color: #669;
+}
+.aside a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #5FB878;
+}

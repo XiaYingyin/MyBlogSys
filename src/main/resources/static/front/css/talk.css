@@ -1,0 +1,123 @@
+.tweet-form .editor-wrapper {
+    position: relative;
+}
+.tweet-form .effect {
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+    transition: all .2s;
+}
+.tweet-form .tweet-editor {
+    font-size: 12px;
+    padding: 7px 9px;
+    width: 236px;
+    height: 54px;
+    border: 1px solid #D8D8D8;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    resize: none;
+}
+textarea {
+    overflow: auto;
+}
+.tweet-form .bn-tweet {
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    width: 44px;
+    background: #009688;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+.tweet-form .editor-wrapper .editor-tip.error {
+    color: #ff525a;
+}
+.tweet-form .editor-wrapper .editor-tip {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    display: none;
+    text-align: center;
+    box-shadow: inset 0 0 1px 0 #D8D8D8;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #21B351;
+    font-weight: bold;
+}
+.aside-header {
+    height: 26px;
+    margin: 20px 0 10px 0;
+    box-shadow: inset 0 -1px 0 0 #D8D8D8;
+}
+.aside-header .tweet-name {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #111;
+    box-shadow: inset 0 -1px 0 0 transparent;
+    transition: color 0.2s, box-shadow 0.2s;
+}
+.cursor {
+    cursor: pointer;
+}
+.aside-header .tweet-name.active {
+    color: #009688;
+    box-shadow: inset 0 -1px 0 0 #009688;
+}
+.aside-header .more {
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.tweet {
+    padding: 5px 0;
+}
+.tweet .tweet-uimg {
+    margin: 0 7px 0 0;
+    width: 24px;
+    max-width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tweet .tweet-content {
+    margin: 0;
+    font-size: 14px;
+    color: #111;
+    line-height: 20px;
+    overflow: hidden;
+}
+.sc .wrap {
+    white-space: normal;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    -ms-word-break: break-all;
+}
+.tweet .tweet-content .tweet-user {
+    padding: 0 .2em 0 0;
+    color: #0B3566;
+}
+.tweet .tweet-content .tweet-user a {
+    color: #0B3566;
+}
+.tweet .favor-icon {
+    margin: 0 3px 0 0;
+    width: 16px;
+    height: 16px;
+    background: transparent url(https://www.oschina.net/build/oschina/community/stylesheets/imgs/tweet/ic-like.svg) no-repeat center;
+    background-size: cover;
+    transition: background .2s;
+}
+.tweet .favor-icon.unlike {
+    background-image: url(https://www.oschina.net/build/oschina/community/stylesheets/imgs/tweet/ic-has-like.svg);
+}
