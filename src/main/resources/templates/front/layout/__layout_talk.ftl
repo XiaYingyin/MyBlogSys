@@ -146,8 +146,7 @@ ${css!}
     <div class="qing-text-center">
         <p class="am-text-sm">${siteDescription!}</p>
     </div>
-    <div class="qing-text-center">Copyright © 2017 ${siteName!}  |  All Rights Reserved.  |  power by Habib</div>
-    <div class="qing-text-center"><a href="http://www.beian.gov.cn">${siteRecordNumber!}</a></div>
+    <div class="qing-text-center">Copyright © 2019 ${siteName!}  |  All Rights Reserved. </div>
 </footer>
 <script src="${ctx!}/front/js/jquery.min.js"></script>
 <script src="${ctx!}/front/js/jquery.yestop.js"></script>

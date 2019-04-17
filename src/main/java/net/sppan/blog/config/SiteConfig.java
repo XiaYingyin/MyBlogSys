@@ -42,9 +42,6 @@ public class SiteConfig implements InitializingBean{
 		String path = servletContext.getRealPath("\\");
 
 		for (Options options : list) {
-			if(!isFile(path + list.get(6).getOptionValue())) {
-				list.get(6).setOptionValue("/front/i/favicon.png");
-			}
 			servletContext.setAttribute(options.getOptionKey(), options.getOptionValue());
 		}
 

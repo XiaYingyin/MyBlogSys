@@ -157,8 +157,7 @@ ${css!}
     <div class="qing-text-center">
         <p class="am-text-sm">${siteDescription!}</p>
     </div>
-    <div class="qing-text-center">Copyright © 2017 ${siteName!}  | All Rights Reserved. | power by Habib</div>
-    <div class="qing-text-center"><a href="http://www.beian.gov.cn">${siteRecordNumber!}</a></div>
+    <div class="qing-text-center">Copyright © 2019 ${siteName!}  | All Rights Reserved. </div>
 </footer>
 <script src="${ctx!}/front/js/jquery.min.js"></script>
 <script src="${ctx!}/front/js/jquery.yestop.js"></script>
@@ -180,36 +179,7 @@ ${css!}
     });
 </script>
 <!--光标动画效果 -->
-<script async type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#main').addClass('loaded'); //开场拉幕效果
-        setCurrentNavMenu();
 
-        setTimeout(function(){	$('#loader-wrapper').remove();},1000);
-
-        $('.slide .icon li').not('.up,.down').mouseenter(function(){
-            $('.slide .info').addClass('hover');
-            $('.slide .info li').hide();
-            $('.slide .info li.'+$(this).attr('class')).show();//.slide .info li.qq
-        });
-        $('.slide').mouseleave(function(){
-            $('.slide .info').removeClass('hover');
-        });
-
-        $('#btn').click(function(){
-            $('.slide').toggle();
-            if($(this).hasClass('index_cy')){
-                $(this).removeClass('index_cy');
-                $(this).addClass('index_cy2');
-            }else{
-                $(this).removeClass('index_cy2');
-                $(this).addClass('index_cy');
-            }
-
-        });
-    });
-</script>
 <script type="text/javascript">
     $(document).ready(function () {
         setCurrentNavMenu();

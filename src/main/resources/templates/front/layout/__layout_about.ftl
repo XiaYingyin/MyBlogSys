@@ -144,15 +144,13 @@ ${css!}
     <div class="qing-text-center">
         <p class="am-text-sm">${siteDescription!}</p>
     </div>
-    <div class="qing-text-center">Copyright © 2017 ${siteName!}  |  All Rights Reserved.  |  power by Habib</div>
-    <div class="qing-text-center"><a href="http://www.beian.gov.cn">${siteRecordNumber!}</a></div>
+    <div class="qing-text-center">Copyright © 2019 ${siteName!}  |  All Rights Reserved. </div>
 </footer>
 <script src="${ctx!}/front/js/jquery.min.js"></script>
 <script src="${ctx!}/front/js/jquery.yestop.js"></script>
 <script src="${ctx!}/front/js/amazeui.min.js"></script>
 <script src="${ctx!}/front/layui/layui.js"></script>
-<!--光标动画效果 -->
-<script async type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function() {
         $('#main').addClass('loaded'); //开场拉幕效果

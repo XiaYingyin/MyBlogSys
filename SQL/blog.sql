@@ -106,11 +106,11 @@ CREATE TABLE `tb_file` (
 -- ----------------------------
 -- Records of tb_file
 -- ----------------------------
-INSERT INTO `tb_file` VALUES ('2', '图片1', '0', '2018-03-30 14:55:27', '图片1', 'http://p68n9hcto.bkt.clouddn.com/FhUi9n0r2KFdvu95XOgrHusISDY-', '0', 'http://p68n9hcto.bkt.clouddn.com/FhUi9n0r2KFdvu95XOgrHusISDY-', null);
-INSERT INTO `tb_file` VALUES ('3', '图片2', '1', '2018-03-30 14:56:00', '图片2', 'http://p68n9hcto.bkt.clouddn.com/FoAyD1fXgBwq9DG_Lax71zPdOkGR', '0', 'http://p68n9hcto.bkt.clouddn.com/FoAyD1fXgBwq9DG_Lax71zPdOkGR', null);
-INSERT INTO `tb_file` VALUES ('4', '图片3', '1', '2018-03-30 14:56:33', '图片3', 'http://p68n9hcto.bkt.clouddn.com/FpUSagVcznZCTyn9jnbjiJWFyuI4', '0', 'http://p68n9hcto.bkt.clouddn.com/FpUSagVcznZCTyn9jnbjiJWFyuI4', null);
-INSERT INTO `tb_file` VALUES ('5', '图片4', '1', '2018-03-30 14:57:37', '图片4', 'http://p68n9hcto.bkt.clouddn.com/Fn0wCBdfnKatSk1S8tsaqGainbz-', '0', 'http://p68n9hcto.bkt.clouddn.com/Fn0wCBdfnKatSk1S8tsaqGainbz-', null);
-INSERT INTO `tb_file` VALUES ('6', '图片5', '1', '2018-03-30 15:14:25', '图片5', 'http://p68n9hcto.bkt.clouddn.com/FpJVSsj1t5YdR5nEf4yw-Jod8j-y', '0', 'http://p68n9hcto.bkt.clouddn.com/FpJVSsj1t5YdR5nEf4yw-Jod8j-y', null);
+INSERT INTO `tb_file` VALUES ('2', '图片1', '0', '2018-03-30 14:55:27', '图片1', 'https://cdn.pixabay.com/photo/2017/01/12/06/00/island-1973839_1280.jpg', '0', 'https://cdn.pixabay.com/photo/2017/01/12/06/00/island-1973839_1280.jpg', null);
+INSERT INTO `tb_file` VALUES ('3', '图片2', '1', '2018-03-30 14:56:00', '图片2', 'https://cdn.pixabay.com/photo/2014/07/16/05/18/beach-394503_1280.jpg', '0', 'https://cdn.pixabay.com/photo/2014/07/16/05/18/beach-394503_1280.jpg', null);
+INSERT INTO `tb_file` VALUES ('4', '图片3', '1', '2018-03-30 14:56:33', '图片3', 'https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg', '0', 'https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg', null);
+INSERT INTO `tb_file` VALUES ('5', '图片4', '1', '2018-03-30 14:57:37', '图片4', 'https://cdn.pixabay.com/photo/2016/08/09/21/54/yellowstone-national-park-1581879_1280.jpg', '0', 'https://cdn.pixabay.com/photo/2016/08/09/21/54/yellowstone-national-park-1581879_1280.jpg', null);
+INSERT INTO `tb_file` VALUES ('6', '图片5', '1', '2018-03-30 15:14:25', '图片5', 'https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg', '0', 'https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg', null);
 
 -- ----------------------------
 -- Table structure for `tb_log`
@@ -148,66 +148,6 @@ CREATE TABLE `tb_login_log` (
 ) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of tb_login_log
--- ----------------------------
-INSERT INTO `tb_login_log` VALUES ('1', '182.150.160.214', '2018-03-16 16:11:19', '1');
-INSERT INTO `tb_login_log` VALUES ('2', '182.150.160.214', '2018-03-16 16:12:24', '1');
-INSERT INTO `tb_login_log` VALUES ('3', '182.150.160.214', '2018-03-16 16:15:06', '1');
-INSERT INTO `tb_login_log` VALUES ('4', '0:0:0:0:0:0:0:1', '2018-03-16 17:11:42', '1');
-INSERT INTO `tb_login_log` VALUES ('5', '0:0:0:0:0:0:0:1', '2018-03-16 17:33:10', '1');
-INSERT INTO `tb_login_log` VALUES ('6', '0:0:0:0:0:0:0:1', '2018-03-16 19:17:24', '1');
-INSERT INTO `tb_login_log` VALUES ('7', '0:0:0:0:0:0:0:1', '2018-03-16 20:20:58', '1');
-INSERT INTO `tb_login_log` VALUES ('8', '0:0:0:0:0:0:0:1', '2018-03-16 22:27:50', '1');
-INSERT INTO `tb_login_log` VALUES ('9', '0:0:0:0:0:0:0:1', '2018-03-17 09:28:48', '1');
-INSERT INTO `tb_login_log` VALUES ('10', '118.112.207.193', '2018-03-18 17:56:49', '1');
-INSERT INTO `tb_login_log` VALUES ('11', '0:0:0:0:0:0:0:1', '2018-03-18 18:04:13', '1');
-INSERT INTO `tb_login_log` VALUES ('12', '118.112.207.193', '2018-03-18 19:17:09', '1');
-INSERT INTO `tb_login_log` VALUES ('13', '117.136.70.32', '2018-03-19 08:12:48', '1');
-INSERT INTO `tb_login_log` VALUES ('14', '0:0:0:0:0:0:0:1', '2018-03-19 10:01:57', '1');
-INSERT INTO `tb_login_log` VALUES ('15', '0:0:0:0:0:0:0:1', '2018-03-19 12:35:51', '1');
-INSERT INTO `tb_login_log` VALUES ('16', '0:0:0:0:0:0:0:1', '2018-03-19 15:54:57', '1');
-INSERT INTO `tb_login_log` VALUES ('17', '0:0:0:0:0:0:0:1', '2018-03-19 15:55:18', '1');
-INSERT INTO `tb_login_log` VALUES ('18', '0:0:0:0:0:0:0:1', '2018-03-19 15:56:09', '1');
-INSERT INTO `tb_login_log` VALUES ('19', '0:0:0:0:0:0:0:1', '2018-03-19 16:04:11', '1');
-INSERT INTO `tb_login_log` VALUES ('20', '0:0:0:0:0:0:0:1', '2018-03-19 16:04:12', '1');
-INSERT INTO `tb_login_log` VALUES ('21', '0:0:0:0:0:0:0:1', '2018-03-19 16:04:35', '1');
-INSERT INTO `tb_login_log` VALUES ('22', '0:0:0:0:0:0:0:1', '2018-03-19 16:05:05', '1');
-INSERT INTO `tb_login_log` VALUES ('23', '0:0:0:0:0:0:0:1', '2018-03-19 16:07:20', '1');
-INSERT INTO `tb_login_log` VALUES ('24', '0:0:0:0:0:0:0:1', '2018-03-19 16:15:32', '1');
-INSERT INTO `tb_login_log` VALUES ('25', '0:0:0:0:0:0:0:1', '2018-03-19 16:23:27', '1');
-INSERT INTO `tb_login_log` VALUES ('26', '0:0:0:0:0:0:0:1', '2018-03-19 16:26:17', '1');
-INSERT INTO `tb_login_log` VALUES ('27', '0:0:0:0:0:0:0:1', '2018-03-19 16:30:13', '1');
-INSERT INTO `tb_login_log` VALUES ('28', '0:0:0:0:0:0:0:1', '2018-03-19 16:31:40', '1');
-INSERT INTO `tb_login_log` VALUES ('29', '0:0:0:0:0:0:0:1', '2018-03-19 16:36:16', '1');
-INSERT INTO `tb_login_log` VALUES ('30', '0:0:0:0:0:0:0:1', '2018-03-19 16:45:33', '1');
-INSERT INTO `tb_login_log` VALUES ('31', '0:0:0:0:0:0:0:1', '2018-03-19 16:54:50', '1');
-INSERT INTO `tb_login_log` VALUES ('32', '0:0:0:0:0:0:0:1', '2018-03-19 19:25:41', '1');
-INSERT INTO `tb_login_log` VALUES ('33', '0:0:0:0:0:0:0:1', '2018-03-20 09:10:27', '1');
-INSERT INTO `tb_login_log` VALUES ('34', '118.113.134.61', '2018-03-20 16:45:31', '1');
-INSERT INTO `tb_login_log` VALUES ('35', '0:0:0:0:0:0:0:1', '2018-03-21 10:20:07', '1');
-INSERT INTO `tb_login_log` VALUES ('36', '0:0:0:0:0:0:0:1', '2018-03-21 20:36:03', '1');
-INSERT INTO `tb_login_log` VALUES ('37', '118.112.207.193', '2018-03-21 20:58:41', '1');
-INSERT INTO `tb_login_log` VALUES ('38', '118.112.207.193', '2018-03-21 20:58:58', '1');
-INSERT INTO `tb_login_log` VALUES ('39', '0:0:0:0:0:0:0:1', '2018-03-22 20:09:14', '1');
-INSERT INTO `tb_login_log` VALUES ('40', '0:0:0:0:0:0:0:1', '2018-03-23 15:01:18', '1');
-INSERT INTO `tb_login_log` VALUES ('41', '0:0:0:0:0:0:0:1', '2018-03-23 15:01:21', '1');
-INSERT INTO `tb_login_log` VALUES ('42', '118.116.48.51', '2018-03-23 17:31:37', '1');
-INSERT INTO `tb_login_log` VALUES ('43', '0:0:0:0:0:0:0:1', '2018-03-26 10:30:08', '1');
-INSERT INTO `tb_login_log` VALUES ('44', '0:0:0:0:0:0:0:1', '2018-03-27 13:52:09', '1');
-INSERT INTO `tb_login_log` VALUES ('45', '0:0:0:0:0:0:0:1', '2018-03-27 15:54:44', '1');
-INSERT INTO `tb_login_log` VALUES ('46', '182.150.160.228', '2018-03-27 16:35:00', '1');
-INSERT INTO `tb_login_log` VALUES ('47', '0:0:0:0:0:0:0:1', '2018-03-28 16:03:39', '1');
-INSERT INTO `tb_login_log` VALUES ('48', '0:0:0:0:0:0:0:1', '2018-03-28 18:07:07', '1');
-INSERT INTO `tb_login_log` VALUES ('49', '0:0:0:0:0:0:0:1', '2018-03-29 17:56:47', '1');
-INSERT INTO `tb_login_log` VALUES ('50', '0:0:0:0:0:0:0:1', '2018-03-29 23:12:05', '1');
-INSERT INTO `tb_login_log` VALUES ('51', '0:0:0:0:0:0:0:1', '2018-03-29 23:12:05', '1');
-INSERT INTO `tb_login_log` VALUES ('52', '0:0:0:0:0:0:0:1', '2018-03-30 14:23:58', '1');
-INSERT INTO `tb_login_log` VALUES ('53', '0:0:0:0:0:0:0:1', '2018-03-30 17:19:07', '1');
-INSERT INTO `tb_login_log` VALUES ('54', '0:0:0:0:0:0:0:1', '2018-04-09 22:24:05', '1');
-INSERT INTO `tb_login_log` VALUES ('55', '0:0:0:0:0:0:0:1', '2018-04-09 22:24:06', '1');
-INSERT INTO `tb_login_log` VALUES ('56', '0:0:0:0:0:0:0:1', '2018-04-09 22:26:53', '1');
-
--- ----------------------------
 -- Table structure for `tb_menu`
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_menu`;
@@ -228,14 +168,10 @@ INSERT INTO `tb_menu` VALUES ('2', 'fa fa-user fa-spin', '用户管理', '/admin
 INSERT INTO `tb_menu` VALUES ('3', 'fa fa-tasks fa-spin', '分类管理', '/admin/category/index', '3');
 INSERT INTO `tb_menu` VALUES ('4', 'fa fa-tag fa-spin', '标签管理', '/admin/tag/index', '4');
 INSERT INTO `tb_menu` VALUES ('5', 'fa fa-heart fa-spin', '文章管理', '/admin/blog/index', '5');
-INSERT INTO `tb_menu` VALUES ('6', 'fa fa-cog fa-spin', '系统菜单', '/admin/menu/index', '6');
-INSERT INTO `tb_menu` VALUES ('7', 'fa fa-cloud fa-spin', '关于我们', '/admin/about/index', '7');
-INSERT INTO `tb_menu` VALUES ('8', 'fa fa-cog fa-spin', '系统设置', '/admin/system/index', '8');
-INSERT INTO `tb_menu` VALUES ('9', 'fa fa-feed fa-spin', '友情链接', '/admin/youlian/index', '9');
-INSERT INTO `tb_menu` VALUES ('10', 'fa fa-tachometer fa-spin', '运行监控', 'druid/index.html', '10');
-INSERT INTO `tb_menu` VALUES ('11', 'fa fa-spinner fa-spin', '系统日志', '/admin/log/index', '11');
-INSERT INTO `tb_menu` VALUES ('12', 'fa fa-photo fa-spin', '图片列表', '/admin/files/index', '12');
-INSERT INTO `tb_menu` VALUES ('13', 'fa fa-picture-o fa-spin', '图片标题', '/admin/files/index', '13');
+INSERT INTO `tb_menu` VALUES ('6', 'fa fa-cloud fa-spin', '关于我们', '/admin/about/index', '7');
+INSERT INTO `tb_menu` VALUES ('7', 'fa fa-cog fa-spin', '系统设置', '/admin/system/index', '8');
+INSERT INTO `tb_menu` VALUES ('8', 'fa fa-feed fa-spin', '友情链接', '/admin/youlian/index', '9');
+INSERT INTO `tb_menu` VALUES ('9', 'fa fa-photo fa-spin', '图片列表', '/admin/files/index', '12');
 
 -- ----------------------------
 -- Table structure for `tb_options`
@@ -254,13 +190,10 @@ CREATE TABLE `tb_options` (
 -- ----------------------------
 INSERT INTO `tb_options` VALUES ('1', '关于我们', 'siteAboutMe', '<p>夏樱银的blog博客系统</p>');
 INSERT INTO `tb_options` VALUES ('2', '站点描述', 'siteDescription', '夏樱银的blog博客系统');
-INSERT INTO `tb_options` VALUES ('3', '网站域名', 'siteDomain', 'http://www.luoyuanxiangvip.com');
+INSERT INTO `tb_options` VALUES ('3', '网站域名', 'siteDomain', 'http://localhost:8088');
 INSERT INTO `tb_options` VALUES ('4', '网站名称', 'siteName', '夏樱银的博客');
-INSERT INTO `tb_options` VALUES ('5', '畅言APPID', 'siteChangyanAppId', 'cytw4yYaC');
-INSERT INTO `tb_options` VALUES ('6', '图标地址', 'siteIcoImg', 'http://p5yybw1lm.bkt.clouddn.com/Fq9UEGBgBhljiirIb2oym0YEt74W');
-INSERT INTO `tb_options` VALUES ('7', '主页欢迎语', 'siteWelcome', '欢迎登录博客管理系统');
-INSERT INTO `tb_options` VALUES ('8', '域名备案号码', 'siteRecordNumber', '蜀ICP备17037993号-1');
-INSERT INTO `tb_options` VALUES ('9', '畅言config', 'siteChangyanConfig', 'prod_592a2a2500c11987044a1e6aa767ac30');
+INSERT INTO `tb_options` VALUES ('5', '图标地址', 'siteIcoImg', 'https://s2.ax1x.com/2019/04/17/AxfHmj.png');
+INSERT INTO `tb_options` VALUES ('6', '主页欢迎语', 'siteWelcome', '欢迎登录博客管理系统');
 
 -- ----------------------------
 -- Table structure for `tb_resource`
@@ -397,25 +330,13 @@ CREATE TABLE `tb_tag` (
 -- ----------------------------
 -- Records of tb_tag
 -- ----------------------------
-INSERT INTO `tb_tag` VALUES ('4', '3', 'nginx', '0');
-INSERT INTO `tb_tag` VALUES ('5', '0', 'maven', '0');
-INSERT INTO `tb_tag` VALUES ('6', '1', 'spring', '0');
-INSERT INTO `tb_tag` VALUES ('7', '1', 'quartz', '0');
+INSERT INTO `tb_tag` VALUES ('4', '3', 'java', '0');
+INSERT INTO `tb_tag` VALUES ('5', '0', 'test', '0');
+INSERT INTO `tb_tag` VALUES ('6', '1', '产品', '0');
+INSERT INTO `tb_tag` VALUES ('7', '1', 'c++', '0');
 INSERT INTO `tb_tag` VALUES ('8', '0', 'springboot', '0');
 INSERT INTO `tb_tag` VALUES ('9', '1', 'linux', '0');
-INSERT INTO `tb_tag` VALUES ('10', '0', 'javascript', '0');
-INSERT INTO `tb_tag` VALUES ('11', '0', 'jqgrid', '0');
-INSERT INTO `tb_tag` VALUES ('12', '0', 'springdata', '0');
-INSERT INTO `tb_tag` VALUES ('13', '2', 'jpa', '0');
-INSERT INTO `tb_tag` VALUES ('14', '0', 'lucene', '0');
-INSERT INTO `tb_tag` VALUES ('15', '4', 'java', '0');
-INSERT INTO `tb_tag` VALUES ('16', '0', 'struts2', '0');
-INSERT INTO `tb_tag` VALUES ('17', '0', 'springmvc', '0');
-INSERT INTO `tb_tag` VALUES ('18', '1', 'dubbo', '0');
-INSERT INTO `tb_tag` VALUES ('19', '1', 'redis', '0');
-INSERT INTO `tb_tag` VALUES ('20', '1', '大数据', '0');
-INSERT INTO `tb_tag` VALUES ('21', '1', 'jenkins', '0');
-INSERT INTO `tb_tag` VALUES ('22', '0', '打算发的是范德萨发士大夫撒地方', '0');
+INSERT INTO `tb_tag` VALUES ('10', '4', 'java', '0');
 
 -- ----------------------------
 -- Table structure for `tb_user`
@@ -442,7 +363,7 @@ CREATE TABLE `tb_user` (
 -- ----------------------------
 -- Records of tb_user
 -- ----------------------------
-INSERT INTO `tb_user` VALUES ('1', '2018-03-22 20:22:57', '这是描述吧', '127.0.0.1', 'blog', 'DJ2B4FTK8KN7ORQF9IM59KKI1', 'zmxyyZJkE-N6JjRhujp6U8l4Yu7vuQDZ', '1', '1141306760@qq.com', '四川省成都市', '1141306760@qq.com', '18224019792', 'http://p5yybw1lm.bkt.clouddn.com/FigjDud8mG7wOaITH4TlZjFwr7Up', null);
+INSERT INTO `tb_user` VALUES ('1', '2018-03-22 20:22:57', '我是夏樱银', '127.0.0.1', 'blog', 'DJ2B4FTK8KN7ORQF9IM59KKI1', 'zmxyyZJkE-N6JjRhujp6U8l4Yu7vuQDZ', '1', 'xiayingyin@126.com', '甘肃敦煌', 'xiayingyin@126.com', '13167389300', 'https://s2.ax1x.com/2019/04/15/AjdEFI.jpg', null);
 
 -- ----------------------------
 -- Table structure for `tb_youlian`
@@ -461,4 +382,4 @@ CREATE TABLE `tb_youlian` (
 -- ----------------------------
 -- Records of tb_youlian
 -- ----------------------------
-INSERT INTO `tb_youlian` VALUES ('2', '我的开源中国地址', '0', '我的开源中国', 'https://gitee.com/LUO_yuan/blog', null);
+INSERT INTO `tb_youlian` VALUES ('2', '我的GitHub主页', '0', '我的GitHub', 'https://github.com/xiayingyin', null);
