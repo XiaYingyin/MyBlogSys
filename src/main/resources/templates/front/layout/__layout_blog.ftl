@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="${ctx!}/front/css/amazeui.min.css">
     <link rel="stylesheet" href="${ctx!}/front/layui/css/layui.css"/>
     <link rel="stylesheet" href="${ctx!}/front/css/app.css"/>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 ${css!}
 </head>
 <style>
@@ -144,6 +146,7 @@ ${css!}
     <!-- 侧边栏结束-->
 </div>
 <!-- content end -->
+</script>
 
 <footer class="qing-footer">
     <div class="qing-text-center">
@@ -185,9 +188,8 @@ ${css!}
         });
 
     }
-</script>
 
-${js!}
+
 </body>
 </html>
 </#macro>

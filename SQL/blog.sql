@@ -84,7 +84,6 @@ CREATE TABLE `tb_category` (
 -- ----------------------------
 INSERT INTO `tb_category` VALUES ('1', '7', '原创', '0');
 INSERT INTO `tb_category` VALUES ('2', '6', '转载', '0');
-INSERT INTO `tb_category` VALUES ('3', '0', '其他', '0');
 
 -- ----------------------------
 -- Table structure for `tb_file`
@@ -168,10 +167,9 @@ INSERT INTO `tb_menu` VALUES ('2', 'fa fa-user fa-spin', '用户管理', '/admin
 INSERT INTO `tb_menu` VALUES ('3', 'fa fa-tasks fa-spin', '分类管理', '/admin/category/index', '3');
 INSERT INTO `tb_menu` VALUES ('4', 'fa fa-tag fa-spin', '标签管理', '/admin/tag/index', '4');
 INSERT INTO `tb_menu` VALUES ('5', 'fa fa-heart fa-spin', '文章管理', '/admin/blog/index', '5');
-INSERT INTO `tb_menu` VALUES ('6', 'fa fa-cloud fa-spin', '关于我们', '/admin/about/index', '7');
-INSERT INTO `tb_menu` VALUES ('7', 'fa fa-cog fa-spin', '系统设置', '/admin/system/index', '8');
-INSERT INTO `tb_menu` VALUES ('8', 'fa fa-feed fa-spin', '友情链接', '/admin/youlian/index', '9');
-INSERT INTO `tb_menu` VALUES ('9', 'fa fa-photo fa-spin', '图片列表', '/admin/files/index', '12');
+INSERT INTO `tb_menu` VALUES ('6', 'fa fa-cloud fa-spin', '关于我', '/admin/about/index', '7');
+INSERT INTO `tb_menu` VALUES ('7', 'fa fa-feed fa-spin', '友情链接', '/admin/youlian/index', '9');
+INSERT INTO `tb_menu` VALUES ('8', 'fa fa-photo fa-spin', '图片列表', '/admin/files/index', '12');
 
 -- ----------------------------
 -- Table structure for `tb_options`

@@ -16,7 +16,6 @@
 			<span><i class="am-icon-user qing-color-author" title="作者"></i>&nbsp;${(blog.author.nickName)!}</span>&nbsp; 
 			<span><i class="am-icon-clock-o qing-color-clock" title="时间"></i>&nbsp;${(blog.createAt)!}</span>&nbsp; 
 			<span><i class="am-icon-eye-slash qing-color-eye" title="阅读"></i>&nbsp;阅读(<em>${(blog.views)!}</em>)</span>&nbsp;
-			<span><i class="am-icon-comments-o qing-color-comment" title="评论"></i>&nbsp;评论(<a href="#SOHUCS" id="changyan_count_unit"></a>)</span>&nbsp; 
 			<script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
 <!-- 			<span><i class="am-icon-heart-o qing-color-heart" title="点赞"></i> 点赞(<em>0</em>)</span> -->
 		</div>
@@ -41,22 +40,18 @@
 
 
 <!-- comment start-->
-<div class="qing-content qing-margin-top">
-    <!--PC和WAP自适应版-->
-    <div id="SOHUCS" sid ="${(blog.id)!}" ></div>
-    <script type="text/javascript">
-        (function(){
-            var appid = '${siteChangyanAppId!}';
-            var conf = '${siteChangyanConfig!}';
-            var width = window.innerWidth || document.documentElement.clientWidth;
-            if (width < 960) {
-                window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-</div>
-
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'av3xpRaTE6XuqI34ChCjKSrU-gzGzoHsz',
+            appKey: 'C3yRJ81Sr0vGIN8iAbQKhnWF'
+        })
+    </script>
 
 <!-- comment end-->
 <#assign js>
-<!--光标动画效果 -->
+
 
 <script type="text/javascript">
 layui.use(['code'], function(){ //加载code模块
