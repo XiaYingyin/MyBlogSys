@@ -13,7 +13,7 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
+// 用于处理文件上传的controller
 @Controller
 public class UploadController extends BaseController{
 

@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-
+// 用于处理用户管理页面的controller
 @Controller
 @RequestMapping("/admin/user")
 public class AdminUserController extends BaseController {

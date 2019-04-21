@@ -29,6 +29,7 @@ public class BlogITApplication extends WebMvcConfigurerAdapter {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         super.addInterceptors(registry);
+        // 添加拦截器
         registry.addInterceptor(commonInterceptor)
                 .addPathPatterns("/**");
         registry.addInterceptor(loginIntercepter).addPathPatterns("/admin/**")

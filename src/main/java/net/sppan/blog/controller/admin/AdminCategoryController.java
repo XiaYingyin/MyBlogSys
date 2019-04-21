@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
+// 用于处理分类页面的controller
 @Controller
 @RequestMapping("/admin/category")
 public class AdminCategoryController extends BaseController {

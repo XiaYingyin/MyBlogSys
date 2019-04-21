@@ -10,7 +10,8 @@ import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
-
+//自定义标签list 
+//用于友情链接列表的显示
 @Component
 public class YoulianDirective implements TemplateDirectiveModel{
 

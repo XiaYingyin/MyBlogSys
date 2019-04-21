@@ -1,22 +1,28 @@
- **SPPanBlog4SpringBoot博客系统** 
-1. 后台使用springboot、spring data jpa实现。全文检索使用Lucene。
-2. 模版引擎使用超级经典的freemarker。
-3. 管理后台UI使用Hadmin后台模版框架。
-4. 页面前台使用超级小清新的layui。
-5. 数据库使用MySQL。我开发的时候使用的MySQL，理论上可以支持各种形式的数据库，但是需要更换驱动类，因为程序代码不掺杂任何sql，全部由jpa生成。  
-设置spring.jpa.properties.hibernate.hbm2ddl.auto=create以后，可以自动创建数据表。
-6.数据库链接使用jasypt进行了加密链接 
-7. 项目统演示站 [传送门](http://www.luoyuanxiangvip.com:8888)。
-8. **jfinal版本的开源地址为：http://git.oschina.net/whoismy8023/sppanblog4jfinal**
+# 简单博客系统
 
-系统截图：  
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0411/205539_eee2b847_559378.png "在这里输入图片标题")
+本系统是一个简单的博客系统，使用Spring Boot框架开发，具有发表博客、查看博客、发表评论、登录博客、用户管理等功能。该系统主要分为两部分：前台和后台，前台主要负责登录、博客的显示、标签显示以及评论等功能；后台主要负责用户管理、博客管理、分类和标签管理、图片管理等功能。
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0411/205603_bfca9484_559378.png "在这里输入图片标题")
+## 开发技术
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0411/205601_8719a026_559378.png "在这里输入图片标题")
+该博客系统使用MVC模式开发，前端主要使用FreeMarker模版引擎，辅助以html、JavaScript等编程语言。FreeMarker是一个模板引擎，一个基于模板生成文本输出的通用工具，使用纯Java编写。FreeMarker被设计用来生成HTMLWeb页面，特别是基于MVC模式的应用程序。
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0411/205645_8a1b3a5b_559378.png "在这里输入图片标题")
+所谓模板，就是一份已经写好了基本内容，有着固定格式的文档，其中空出或者用占位符标识的内容，由使用者来填充，不同的使用者给出的数据是不同的。在模板中的占位符，在模板运行时，由模板引擎来解析模板，并采用动态数据替换占位符部分的内容。
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0411/205708_8f5db6e3_559378.png "在这里输入图片标题")
+后端使用spring boot框架编写。Spring Boot 是由 Pivotal 团队开发的框架，其作用是用来简化新 Spring 应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置，简单理解就是springboot并不是什么新型的框架，而是整合了spring，springmvc等框架，默认了很多配置，从而减少了开发者的开发时间。
 
+Spring Boot 简化了基于Spring的应用开发，通过少量的代码就能创建一个独立的、产品级别的 Spring 应用。 Spring Boot 为 Spring 平台及第三方库提供开箱即用的设置。
+
+## 编程环境
+
+- Java 1.8
+- IDE：Eclipse Java EE IDE for Web Developers. Version: 2018-09 (4.9.0)
+
+## 运行
+
+运行之前，需要初始化数据库。打开MySql的命令行客户端，运行下面的命令：
+
+```
+\. blog.sql
+```
+
+然后在eclipse中运行即可。

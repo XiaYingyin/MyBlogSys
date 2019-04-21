@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
+// 定义基类controller，包含基本的功能
 public class BaseController {
 	@Resource
 	private HttpServletRequest request;

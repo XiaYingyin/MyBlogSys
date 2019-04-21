@@ -52,7 +52,7 @@
                                 <label class="col-sm-3 control-label">图片：</label>
                                 <div class="col-sm-8">
                                     <input id="src" name="src" class="form-control" type="text" value="${(album.src)!}">
-                                    <button id="btnUpload" class="btn btn-primary">上传</button>
+                                    
                                 </div>
                             </div>
                             <div class="form-group">

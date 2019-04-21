@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * cookie相关工具类
+ * cookie相关工具类，通过cookie判断用户的登录是否超时
  */
 public final class CookieKit {
 

@@ -11,10 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 
-/**
- * create by SPPan 2018/1/10
- *
- */
+// 用于友情链接页面的controller
 @Controller
 @RequestMapping("/admin/youlian")
 public class AdminYoulianController extends BaseController {

@@ -130,7 +130,7 @@
     	      },
     	      	nickName: {
     	        required: true,
-    	        minlength: 4,
+    	        minlength: 1,
     	    	maxlength: 10
     	      },
     	      	salt: {

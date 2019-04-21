@@ -90,14 +90,6 @@
 				{{/if}}
         		</button> &nbsp;
 
-				<button class="btn btn-warning btn-xs" type="button" onclick="change('{{row.id}}','status')">
-				{{if row.status == 0 }}
-        			<i class="fa fa-eye"></i>&nbsp;隐藏
-				{{else}}
-        			<i class="fa fa-eye"></i>&nbsp;显示
-				{{/if}}
-        		</button>
-
 				<button class="btn btn-primary btn-xs" type="button" onclick="change('{{row.id}}','featured')">
 				{{if row.featured == 1 }}
         			<i class="fa fa-thumbs-o-up"></i>&nbsp;取消推荐

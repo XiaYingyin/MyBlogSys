@@ -9,9 +9,6 @@
             <span><i class="am-icon-user qing-color-author" title="作者"></i>&nbsp;SPPan</span>&nbsp;
             <span><i class="am-icon-clock-o qing-color-clock" title="时间"></i>&nbsp;2017-01-26 10:41:46</span>&nbsp;
             <span><i class="am-icon-eye-slash qing-color-eye" title="阅读"></i>&nbsp;阅读(412)</span>&nbsp;
-            <span><i class="am-icon-comments-o qing-color-comment" title="评论"></i>&nbsp;评论(<span id="sourceId::1" class="cy_cmt_count">2</span>)</span>&nbsp;
-            <script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=cysVMfw5x"></script>
-            <!--         <span><i class="am-icon-heart-o qing-color-heart" title="点赞"></i> 点赞(1)</span> -->
         </div>
         <p class="qing-list-content">1.Nginx 简介Nginx ("engine x") 是一个高性能的 HTTP 和 反向代理 服务器，也是一个 IMAP/POP3/SMTP 代理服务器。 Nginx是由 Igor Sysoev 为俄罗斯访问量第二的 Rambler.ru 站...</p>
         <div class="qing-list-foot">

@@ -141,7 +141,7 @@ public class BlogServiceImpl implements BlogService{
 	public Long getBlogCountByTag(Tag tag) {
 		return blogRepository.countByTagsContaining(tag.getName());
 	}
-
+	
 	@Override
 	public List<Blog> findAll() {
 		return blogRepository.findAll();

@@ -19,7 +19,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * @author SPPan
  * 
- * 登录检查拦截器
+ * 登录检查拦截器，用于验证用户的登录信息
  *
  */
 @Component

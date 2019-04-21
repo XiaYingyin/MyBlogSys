@@ -18,7 +18,7 @@ import javax.annotation.Resource;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-
+// 用于处理图片上传的controller
 @Controller
 @RequestMapping("/admin/files")
 public class AdminFilesController extends BaseController{
@@ -112,4 +112,18 @@ public class AdminFilesController extends BaseController{
         }
         return JsonResult.ok();
     }
+    
+    @RequestMapping("/{id}/del")
+	@ResponseBody
+	public JsonResult delete(
+			@PathVariable Long id
+			){
+		try {
+			filesService.delete(id);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return JsonResult.fail(e.getMessage());
+		}
+		return JsonResult.ok();
+	}
 }

@@ -4,7 +4,7 @@ import net.sppan.blog.controller.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
-
+// 用于处理博客欢迎页面的controller
 @Controller
 public class AdminIndexController extends BaseController {
 

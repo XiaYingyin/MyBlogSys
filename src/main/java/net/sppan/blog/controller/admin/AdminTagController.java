@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
+// 用于处理博客标签的controller
 @Controller
 @RequestMapping("/admin/tag")
 public class AdminTagController extends BaseController {

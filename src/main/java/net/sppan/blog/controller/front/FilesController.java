@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
-
+// 用于处理相册页面的controller
 @Controller
 @RequestMapping("/album")
 public class FilesController extends BaseController {

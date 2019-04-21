@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
-
+// 用于处理博客编辑页面的controller
 @Controller
 @RequestMapping("/admin/blog")
 public class AdminBlogController extends BaseController{

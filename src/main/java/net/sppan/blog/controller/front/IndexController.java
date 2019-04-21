@@ -7,7 +7,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
-
+// 用于处理主页的controller
 @Controller
 public class IndexController extends BaseController{
 

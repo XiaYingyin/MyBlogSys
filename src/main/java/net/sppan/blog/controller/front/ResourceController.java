@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
 import java.util.List;
-
+// 用于处理分类页面的controller
 @Controller
 @RequestMapping("/resource")
 public class ResourceController {

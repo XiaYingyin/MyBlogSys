@@ -2,7 +2,7 @@ package net.sppan.blog.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
-
+// 用于配置博客文件的存储路径
 @Component
 @ConfigurationProperties(prefix = BlogProperties.PREFIX)
 public class BlogProperties {

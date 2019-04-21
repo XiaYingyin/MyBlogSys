@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import javax.servlet.ServletContext;
 import java.io.File;
 import java.util.List;
-
+// 站点的系统配置类
 @Component
 public class SiteConfig implements InitializingBean{
 	

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-
+// 用于处理关于页面的controller
 @Controller
 @RequestMapping("/admin/about")
 public class AdminAboutController extends BaseController{

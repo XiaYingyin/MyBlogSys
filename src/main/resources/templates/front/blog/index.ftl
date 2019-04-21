@@ -12,8 +12,6 @@
        	<span><i class="am-icon-user qing-color-author" title="作者"></i>&nbsp;${x.author.nickName}</span>&nbsp;
 	    <span><i class="am-icon-clock-o qing-color-clock" title="时间"></i>&nbsp;${x.createAt}</span>&nbsp;
 	    <span><i class="am-icon-eye-slash qing-color-eye" title="阅读"></i>&nbsp;阅读(${x.views})</span>&nbsp;
-        <script id="cy_cmt_num" src="https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=${siteChangyanAppId!}"></script>
-<!--         <span><i class="am-icon-heart-o qing-color-heart" title="点赞"></i> 点赞(1)</span> -->
      </div>
      	<p class="qing-list-content">${x.summary}</p>
       	<div class="qing-list-foot">

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.annotation.Resource;
-
+// 博客页面的controller
 @Controller
 @RequestMapping("/b")
 public class BlogController {

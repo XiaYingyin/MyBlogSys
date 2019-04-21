@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import net.sppan.blog.directive.BlogDirective;
 import net.sppan.blog.directive.CategoryDirective;
 import net.sppan.blog.directive.TagDirective;
-
+// 前端模版引擎FreeMaker的配置
 @Configuration
 public class FreeMarkerConfig {
 

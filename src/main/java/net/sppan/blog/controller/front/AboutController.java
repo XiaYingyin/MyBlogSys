@@ -6,7 +6,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
-
+// 关于页面的controller
 @Controller
 @RequestMapping("/about")
 public class AboutController {

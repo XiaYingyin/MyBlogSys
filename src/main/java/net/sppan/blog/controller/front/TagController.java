@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import net.sppan.blog.entity.Blog;
 import net.sppan.blog.service.BlogService;
-
+// 用于处理主页标签的controller
 @Controller
 public class TagController {
 	

@@ -18,7 +18,8 @@ import freemarker.template.TemplateDirectiveBody;
 import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateModel;
-
+// 自定义标签list
+// 用于通过标签拿到博客列表
 @Component
 public class TagDirective implements TemplateDirectiveModel{
 
